@@ -1,0 +1,1214 @@
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #201e1e;
+  /* color of the tracking area */
+transform: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #44a9ff; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #201e1e; /* creates padding around scroll thumb */
+}
+.bodys{
+background-color:#08050585;
+position: relative;
+position: fixed;
+margin-top: -8px;
+margin-bottom: -50px;
+height: 100%;
+width: 100%;
+margin-left: -5px;
+}
+.body{
+background-image: url("pattern_background.png");
+position: relative;
+position: fixed;
+margin-top: -8px;
+margin-bottom: -50px;
+height: 100%;
+width: 100%;
+margin-left: -5px;
+}
+.case div img{
+  z-index: 1;
+}
+.div{
+background-image: url("dark_mosaic.png");
+border-radius: 20px;
+padding-bottom: -50px;
+background-repeat: round;
+  position:relative;
+  left: 420px;
+
+min-height: 2000px;
+height: 4800px;
+width: 1300px;
+position: absolute;
+margin-top: 50px;
+
+
+}
+.WATCH{
+  color:#fff;
+text-align: center;
+
+height:60px;
+padding-top: 30px;
+position: relative;
+left:60px;
+font-size: 3.5em;
+}
+
+.m{
+background-color: #000000;
+  text-align: left;
+border-right: 1px black solid;
+width: 300px;
+height:100%;
+position: absolute;
+margin-top: -8px;
+margin-left: -7px;
+color: white;
+position: fixed;
+float: left;
+z-index:2 ;
+
+}
+input[type="checkbox"].demo1,.demo2,.demo3,.demo4,.demo5,.demo6,.demo7,.demo8{
+  display: none;
+}
+input[type="checkbox"].demo1 + label,.demo2 + label,.demo3 + label,.demo4 + label,.demo5 + label,.demo6 + label,.demo7 + label,.demo8 + label{
+  box-sizing:border-box;
+  display: inline-block;
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  padding:2px;
+  background-color: #201e1e ;
+  transition: all 0.5s ;
+}
+input[type="checkbox"].demo1 + label::before,.demo2 + label::before,.demo3 + label::before,.demo4 + label::before,.demo5 + label::before,.demo6 + label::before,.demo7 + label::before,.demo8 + label::before{
+  box-sizing: border-box;
+  display: block;
+  content: "";
+  height: calc(1.5rem - 4px);
+  width: calc(1.5rem - 4px);
+  border-radius: 50%;
+  background-color: #44a9ff;
+  transition: all 0.5s ;
+}
+input[type="checkbox"].demo1:checked + label,.demo2:checked + label,.demo3:checked + label,.demo4:checked + label,.demo5:checked + label,.demo6:checked + label,.demo7:checked + label,.demo8:checked + label {
+  background-color: #44a9ff ;
+}
+input[type="checkbox"].demo1:checked + label::before,.demo2:checked + label::before,.demo3:checked + label::before,.demo4:checked + label::before,.demo5:checked + label::before,.demo6:checked + label::before,.demo7:checked + label::before,.demo8:checked + label::before {
+  margin-left: 1.5rem ;
+  background-color: #201e1e ;
+}
+
+.cochable{
+  position: relative;
+ margin-top: 20px;
+top: -50px;
+left: 0px;
+}
+.genre{
+width: 100%;
+  z-index:2;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+body{
+margin-left: -500;
+height:1800px;
+}
+
+.position{
+background-color:#ffffff;
+  position: relative;
+  border: 1px #A9A9A9 solid;
+left:520px;
+height:35px;
+z-index: 1;
+width: 350px;
+border-radius:17px;
+outline: 0;
+}
+label{
+  position: relative;
+  top: 70px;
+ right: 170px;
+}
+
+.img3{
+position: relative;
+top: 70px;
+left:40px
+}
+
+.img2{
+  position: relative;
+  right: 135px;
+bottom: 18px
+}
+.submit1{
+width: 100px;
+  background-color: black;
+border: 1Px black solid;
+color: #fff;
+position: relative;
+top: 60px;
+left:40px;
+cursor: pointer;
+}
+.select{
+  color: black;
+
+  border: 1px white solid;
+position: fixed;
+left:40px;
+top: 189px;
+height: 25px;
+width: 25px;
+border-radius: 15px;
+outline: 0;
+transition: 2s;
+background-image: url("loupe.png");
+background-repeat: no-repeat;
+background-position: right;
+z-index:3;
+}
+.listdep .listshi{
+  display: none;
+  }
+.listdep:hover .listshi{
+  display: block;
+
+
+
+  }
+  .listdep{
+    position:relative;
+    top: -75px;
+  }
+  .listshi{
+    background-color: #000000;
+    height: 200px;
+    width: 100px;
+    position: relative;
+    top: -20px;
+
+  }
+.select:focus{
+  width: 185px;
+
+}
+
+
+
+
+
+
+.divmaj{
+border: 1px #44a9ff solid;
+width: 500px;
+height: 350px;
+position: relative;
+top: 49px;
+left: 140px;
+border-radius: 10px;
+background-color:#00000091;
+color: white;
+}
+.divin
+{
+  border: 1px #44a9ff solid;
+width: 500px;
+height: 350px;
+border-radius: 10px;
+background-color:#00000091;
+color: white;
+
+}
+#vinland{
+  position: relative;
+  top: 90px;
+  left: 140px;
+}
+
+#godof{
+  position: relative;
+  top: 180px;
+  left: 140px;
+  }
+
+#demon{
+    position: relative;
+    top: 270px;
+    left: 140px;
+  }
+  #myhero{
+    position: relative;
+    top: 360px;
+    left: 140px
+}
+#narutoshi{
+  position: relative;
+  top: 450px;
+  left: 140px
+}
+#blackco{
+  position: relative;
+  top: 540px;
+  left: 140px
+}
+#onepunch{
+  position: relative;
+  top: 630px;
+  left: 140px
+}
+#Mobp{
+  position: relative;
+  top: -1567px;
+  left: 750px
+}
+#thepro{
+  position: relative;
+  top: -675px;
+  left: 750px
+}
+#onepi{
+  position: relative;
+  top: 220px;
+  left: 750px
+}
+#assasination{
+  position: relative;
+  top: 1115px;
+  left: 750px
+}
+#hayku{
+  position: relative;
+  top: 2010px;
+  left: 750px
+}
+.haik{
+  width: 210px;
+  position: relative;
+bottom:420px;
+border-radius: 10px;
+height:300px;
+}
+#hunter{
+  position: relative;
+  top: 2905px;
+  left: 750px
+}
+#tokyog{
+  position: relative;
+  top: 3800px;
+  left: 750px
+}
+.bortt1{
+  width: 210px;
+  position: relative;
+bottom:170px;
+border-radius: 10px;
+height:300px;
+}
+.imaj{
+  position: relative;
+  top: 25px;
+left: 25px;
+border-radius: 10px;
+
+}
+.mary{
+    padding-left: 40px;
+padding-top: 20px;
+}
+.h2{
+  color: white;
+position: relative;
+left: 240px;
+bottom:300px;
+height: 50px;
+width: 300px;
+}
+.divs{
+  position: relative;
+  bottom: 300px;
+  left: 260px;
+  z-index: 2;
+width: 300px;
+}
+.sub3{
+  background-color: #c43;
+height: 25px;
+width: 110px;
+border: 1px #c4302b solid;
+color:white;
+border-radius: 20px;
+}
+.a{
+  position: relative;
+  right: 135px;
+  top: 5px;
+}
+.b{
+  position: relative;
+  right: 161px;
+bottom: 85px
+}
+.c{
+  position: relative;
+  right: 189px;
+bottom: 170px
+}
+.etoile{
+  position: relative;
+  top:-300px;
+  z-index: 2;
+  left:250px;
+  
+}
+.note1{
+  position: relative;
+  top:-290px;
+  z-index: 2;
+  left:250px;
+  font-size: large;
+}
+.note{
+  position: relative;
+  top: 20px;
+  width: 300px;
+}
+.div_divna{
+  position: relative;
+  top: 300px;
+  width: 400px;
+}
+.divna{
+  border: 1px #44a9ff solid;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 750px;
+bottom: 304px;
+  border-radius: 10px;
+  background-color:black;
+  color: white;
+}
+
+.sais{
+    position: relative;
+    
+}
+.narutovi{
+float: right;
+position: relative;
+right: 10px;
+}
+
+
+
+.list-num-1 ul li a{
+  text-decoration: none;
+  color: white;
+}
+.list-num-1{
+  position: relative;
+  top: 90px;
+  left:40px
+}
+.list-num-1 ul li{
+  list-style-type: none;
+}
+.fa-film{
+position: relative;
+
+  right: 35px;
+}
+.list-num-2{
+  display: none;
+position: relative;
+right: 40px;
+top: 5px;
+width: 200px;
+height:100px;
+}
+.list-num-1 ul li:hover .list-num-2{
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  left: 20px;
+  background-color: #000000;
+}
+.divba{
+  border: 1px #44a9ff solid;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 750px;
+bottom: 200px;
+  border-radius: 10px;
+  background-color:black;
+  color: white;
+}
+
+.divto{
+  border: 1px #44a9ff solid;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 140px;
+bottom: 550px;
+  border-radius: 10px;
+  background-color:black;
+  color: white;
+}
+
+.divco{
+  border: 1px #44a9ff solid;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 140px;
+bottom: 450px;
+  border-radius: 10px;
+  background-color:black;
+  color: white;
+}
+
+.divjo{
+  border: 1px #44a9ff solid;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 750px;
+margin-top: -805px;
+  border-radius: 10px;
+  background-color:black;
+  color: white;
+}
+
+.bortt{
+  width: 210px;
+  height:300px;
+  border-radius:10px;
+
+}
+
+.case{
+  height: 1600px;
+position: relative;
+right: 50px;
+display: flex;
+flex-direction: column;
+}
+
+@media screen and (min-width:1041px) and (max-width:1919px)
+{
+  .m{
+    left: auto;
+    right: auto;
+    position: fixed;
+  }
+
+
+
+
+
+}
+@media screen and (min-width:1041px) and (max-width:1810px)
+{
+  .div{
+
+left:380px;
+  }
+}
+.hid{
+  background: black;
+  height: 100%;
+  width: 45px;
+  position:fixed;
+  margin-top:-9px;
+  margin-left: -8px;
+
+}
+@media screen and (min-width:1041px) and (max-width:1750px)
+{
+.div{
+  width: 1200px;;
+}
+.case{
+margin: 0px;
+  margin-left: -100px;
+  margin-top: 200px;
+position: relative;
+right: 0px;
+top: 50px;
+}
+.TITRE1{
+  margin-left: -100px;
+  position: absolute;
+  width: 1000px;
+}
+.WATCH{
+  width: 850px;
+text-align: right;
+}
+}
+
+@media screen and (min-width:1041px) and (max-width:1630px) {
+  .div{
+    width: 1100px;
+    margin-left: 30px;
+  }
+  .note{
+    position: relative;
+    left: -30px;
+  }
+  .case .divmaj ,.divba ,.divna ,.divco ,.divto ,.divjo,.divin{
+    width: 400px;
+    font-size: 12px;
+  }
+  .divmaj,.divto,.divco,.divin{
+    margin-left: 70px;
+  }
+  .case .divba ,.divna ,.divjo{
+    margin-left: -70px;
+  }
+.bortt1{
+position: relative;
+bottom: 140px;
+}
+  .divs{
+margin-left: -30px;
+
+  }
+  .h2{
+    margin-left: -30px;
+  }
+  .case .divmaj img,.divba img,.divna img ,.divco img,.divto img,.divjo img,.divin img{
+    width: 180px;
+    height: 300px;
+  }
+
+  .TITRE1{
+    margin-left: -150px;
+    position: absolute;
+    width: 1000px;
+  }
+  .WATCH{
+    width: 850px;
+  text-align: right;
+  }
+
+}
+@media screen and (min-width:1041px) and (max-width:1590px) {
+
+.div{
+  margin-left: -10px;
+}
+}
+@media screen and (min-width:1041px) and (max-width:1530px){
+
+  .div{
+    width: 1050px;
+    margin-left: -10px;
+  }
+.case{
+position: relative;
+left: -20px;
+}
+}
+@media screen and (max-width:1041px){
+
+  .div{
+    width: 1050px;
+    margin-left: -30px;
+
+}
+}
+@media screen and (min-width:1041px) and (max-width:1480px){
+
+  .listshi{
+    background-color: #ffffff00;
+    height: 200px;
+    width: 70px;
+
+  }
+.divba .h2,.divna .h2 ,.divco .h2,.divto .h2,.divjo .h2{
+  position: relative;
+  top: -15px;
+  left: 60px;
+}
+  .div{
+    width: 950px;
+    margin-left: 20px;
+    height:4000px;
+
+    
+}
+.note{
+  position: relative;
+  left: -220px;
+  top: 280px;
+}
+.divs{
+  margin-left: -10px;
+  margin-top: -360px;
+    }
+.div_divna{
+  position: relative;
+  top: 250px;
+}
+.case{
+  position:relative;
+  left:-75px;
+  margin-top: 0px;
+}
+.TITRE1{
+  position:relative;
+  left:-75px;
+}
+.divna{
+position:relative;
+top:-405px;
+left:880px;
+
+
+}
+.divmaj .sub3,.divmaj h3{
+  position:relative;
+  top:-15px;
+
+
+
+  }
+  .divmaj {
+    position:relative;
+    left:200px;
+
+
+
+    }
+.divba{
+  position:relative;
+  top:-858px;
+  left:610px;
+
+
+  }
+  .divto{
+    position:relative;
+    top:-800px;
+    left:200px;
+
+
+    }
+    .divco{
+      position:relative;
+      top:-1255px;
+      left:470px;
+
+
+      }
+      .divjo{
+        position:relative;
+        top:-900px;
+        left:882px;
+
+
+        }
+.listshi{
+position: relative;
+left:75px;
+top:-50px;
+
+
+
+}
+
+#vinland{
+      top:-840px;
+      LEFT:200px;
+      }
+      #godof{
+        top:-1292px;
+        left:470px;
+        }
+        #Mobp{
+          top:-3199px;
+          left:882px;
+          }
+          #demon{
+            top:-1230px;
+            left:200px;
+            }
+            #myhero{
+              top:-1170px;
+              left:200px;
+              }
+              #narutoshi{
+                top:-1110px;
+                left:200px;
+                }
+                #blackco{
+                  top:-1060px;
+                  left:200px;
+                  }
+                  #onepunch{
+                    top:-3038px;
+                    left:470px;
+                    }
+                    #thepro{
+                      top:-2332px;
+                      left:882px;
+                      }
+                      #onepi{
+                        top:-1465px;
+                        left:610px;
+                        }
+                        #assasination{
+                          top:-1112px;
+                          left:882px;
+                          }
+                          #hayku{
+                            top:-252px;
+                            left:882px;
+                            }
+                            #hunter{
+                              top:104px;
+                              left:610px;
+                              }
+                              #tokyog{
+                                top:960px;
+                                left:610px;
+                                }
+
+
+
+
+
+    
+
+.divmaj .h2{
+  position:relative;
+  top:-30px;
+  left:60px;
+}
+.divs{
+position:relative;
+top:-60px;
+left:50px;
+font-size: 14px;;
+}
+
+.divin h2{
+position:relative;
+left:60px;
+top: -20px;
+}
+.case .divmaj ,.case div{
+width: 230px;
+height:450px;
+}
+
+.case .divmaj img,.case div img{
+  width:230px;
+  height:250px;
+  }
+.imaj{
+
+position: relative;
+left:-0px;
+top: 0;
+}
+
+.bortt1{
+position:relative;
+top:-465px;
+}
+.haik{
+position:relative;
+top:-465px;
+}
+
+
+  .narutovi{
+    position:relative;
+    top:  250px;
+    left:20px;
+    }
+
+ }
+ @media screen and (min-width:1041px) and (max-width:1450px){
+
+  .div{
+    width: 950px;
+
+    margin-left: -10px;
+
+
+
+}
+}
+@media screen and (min-width:1041px) and (max-width:1400px){
+
+  .div{
+    width: 950px;
+
+    margin-left: -30px;
+
+
+
+}
+}
+@media screen and (min-width:1041px) and (max-width:1370px){
+
+  .div{
+    width: 950px;
+
+    margin-left: -50px;
+
+
+
+}
+}
+
+
+
+
+
+@media screen and (min-width:1041px) and (max-width:1350px)
+{
+
+
+
+  .m{
+    display:none;
+  }
+  .select{
+        display:none;
+  }
+  .la{
+    display: block;
+margin-left: 37px;
+position: fixed;
+  }
+
+
+  .div{
+
+    width:1000px;
+    margin-left: -200px;
+height:4000px;
+  }
+
+
+
+
+
+
+
+}
+@media screen and (min-width:1041px) and (max-width:1270px)
+{
+
+
+
+  .m{
+    display:none;
+  }
+  .select{
+        display:none;
+  }
+  .la{
+    display: block;
+margin-left: 37px;
+position: fixed;
+  }
+
+
+  .div{
+
+    width:1000px;
+    margin-left: -250px;
+
+  }
+
+
+
+
+
+
+}
+
+@media screen and (min-width:1041px) and (max-width:1200px)
+{
+  .div{
+    width: 950px;
+    margin-left: -230px;
+    height:4000px;
+
+
+  }
+
+}
+
+@media screen and (min-width:1041px) and (max-width:1170px)
+{
+  .div{
+    width: 925px;
+    margin-left: -260px;
+    height:4000px;
+
+
+  }
+
+}
+
+
+@media screen and (min-width:1041px) and (max-width:1080px)
+{
+  .div{
+    width: 850px;
+    margin-left: -250px;
+    height:4000px;
+
+
+  }
+  .case{
+  position:relative;
+  left:-140px;
+
+  }
+  .TITRE1{
+  position:relative;
+  left:-140px;
+  }
+}
+@media screen and (max-width:1040px)
+{
+  .naruto{
+    position: relative;
+  font-size: 23px;
+  
+  }
+  .m{
+    display:none;
+  }
+  .select{
+        display:none;
+  }
+  .la{
+    display: block;
+margin-left: 37px;
+position: fixed;
+  }
+  .div{
+    width: 850px;
+    margin-left: -275px;
+    height:9300px;
+    width:800px;
+
+
+  }
+.WATCH{
+  position:relative;
+  left:300px;
+}
+.case div h2,.case div div {
+  width:250px;
+}
+  .case{
+  position:relative;
+  left:-140px;
+  top:-250px;
+  margin-top: 0px;
+  display: flex;
+  }
+  .TITRE1{
+  position:relative;
+  left:-280px;
+  }
+  #vinland{
+    position:relative;
+    top:1700px;
+    left:300px;
+        }
+        #godof{
+          position:relative;
+          top:2250px;
+          left:300px;
+          }
+          #Mobp{
+            position:relative;
+            top:500px;
+            left:300px;
+            }
+            #demon{
+              position:relative;
+              top:2800px;
+              left:300px;
+              }
+              #myhero{
+                position:relative;
+                top:3350px;
+                left:300px;
+                }
+                #narutoshi{
+                  position:relative;
+                  top:4325px;
+                  left:300px;
+                  }
+                  #blackco{
+                    position:relative;
+                    top:4425px;
+                    left:300px;
+                    }
+                    #onepunch{
+                      position:relative;
+                      top:5425px;
+                      left:300px;
+                      }
+                      #thepro{
+                        position:relative;
+                        top:1850px;
+                        left:300px;
+                        }
+                        #onepi{
+                          position:relative;
+                          top:3200px;
+                          left:300px;
+                          }
+                          #assasination{
+                            position:relative;
+                            top:4550px;
+                            left:300px;
+                            }
+                            #hayku{
+                              position:relative;
+                              top:5450px;
+                              left:300px;
+                              }
+                              #hunter{
+                                position:relative;
+                                top:7250px;
+                                left:300px;
+                                }
+                                #tokyog{
+                                  position:relative;
+                                  top:8150px;
+                                  left:300px;
+                                  }#shing{
+                                    position:relative;
+                                    top:300px;
+                                    left:300px;
+                                    }
+                                    #narut{
+                                      position:relative;
+                                      top:400px;
+                                      left:300px;
+
+                                      }
+                                      #jujut{
+                                          position:relative;
+                                          top:1150px;
+                                          left:300px;
+                                        }
+                                        #toky{
+                                          position:relative;
+                                          top:150px;
+                                          left:300px;
+
+                                          }
+                                          #ston{
+                                            position:relative;
+                                            top:950px;
+                                            left:300px;
+                                            }
+                                            #borut{
+                                              position:relative;
+                                              top:1150px;
+                                              left:300px;
+                                              }
+                                              
+}
+
+@media screen and (max-width:1000px) {
+.div{
+  width:750px;
+  margin-left: -290px;
+}
+.case{
+  position:relative;
+  left:-180px;
+}
+.TITRE1{
+  position:relative;
+  left:-300px;
+}
+}
+.divmaj img,.divin img{
+
+  height: 300px;
+}
+
+@media screen and (max-width:950px){
+  .div{
+    width:690px;
+    margin-left: -290px;
+  }
+  .case{
+    position:relative;
+    left:-210px;
+  }
+  .TITRE1{
+    position:relative;
+    left:-330px;
+  }
+  .WATCH{
+    position:relative;
+    left:320px;
+  }
+}
+
+@media screen and (max-width:890px){
+  .div{
+width: 650px;
+position: absolute;
+left: 400px;
+
+
+  }
+  .WATCH{
+    position:relative;
+    left:340px;
+  }
+}
+
+@media screen and (max-width:860px){
+  .div{
+width: 650px;
+position: absolute;
+left: 380px;
+
+  }
+  .WATCH{
+    position:relative;
+    left:360px;
+  }
+}
+
+
+@media screen and (max-width:810px){
+
+
+}
