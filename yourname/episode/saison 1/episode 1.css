@@ -267,8 +267,11 @@ height:400px;
   }
   .lal{
     display: block;
-margin-left: 36px;
+margin-left: 7px;
 position: fixed;
+  }
+  .hid{
+    z-index: 3;
   }
   .divs{
     width:1200px;

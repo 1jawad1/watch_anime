@@ -23,6 +23,30 @@ height: 100%;
 width: 100%;
 margin-left: -5px;
 }
+.contacte{
+  width: 100px;
+  height: 25px;
+  border:  1px solid #44a9ff;
+  background-color: #201e1e;
+  color: #fff;
+border-style: double;
+border-radius: 5px;
+position: relative;
+top: 100px;
+left: 60px;
+
+}
+.contacte:hover{
+  border:1px solid #201e1e ;
+  background-color: #44a9ff;
+  color: #201e1e;
+}
+.fa-film{
+  color: #44a9ff;
+}
+.hid{
+  z-index: 3;
+}
 .body{
 background-image: url("pattern_background.png");
 position: relative;
@@ -66,7 +90,6 @@ font-size: 3.5em;
 .m{
 background-color: #000000;
   text-align: left;
-border-right: 1px black solid;
 width: 300px;
 height:100%;
 position: absolute;
@@ -75,7 +98,7 @@ margin-left: -7px;
 color: white;
 position: fixed;
 float: left;
-z-index:2 ;
+z-index:3 ;
 
 }
 input[type="checkbox"].demo1,.demo2,.demo3,.demo4,.demo5,.demo6,.demo7,.demo8{
@@ -111,21 +134,40 @@ input[type="checkbox"].demo1:checked + label::before,.demo2:checked + label::bef
 
 .cochable{
   position: relative;
- margin-top: 20px;
-top: -50px;
-left: 0px;
+  margin-top: 20px;
+  top: -50px;
+  left: -50px;
+  margin-left: 45px;
 }
 .genre{
 width: 100%;
   z-index:2;
   margin-left: 200px;
   margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 250px;
 }
 body{
 margin-left: -500;
 height:1800px;
 }
-
+.affichage_genre{
+  display: none;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #201e1e;
+  border: #44a9ff 1px solid;
+  color: #fff;
+}
+.affichage_genre:hover{
+  background-color:#44a9ff;
+  border: #201e1e 1px solid;
+  color: #201e1e;
+}
 .position{
 background-color:#ffffff;
   position: relative;
@@ -163,6 +205,10 @@ position: relative;
 top: 60px;
 left:40px;
 cursor: pointer;
+font-size: 16px;
+}
+.submit1:hover{
+  color: #44a9ff;
 }
 .select{
   color: black;
@@ -179,7 +225,7 @@ transition: 2s;
 background-image: url("loupe.png");
 background-repeat: no-repeat;
 background-position: right;
-z-index:3;
+z-index:4;
 }
 .listdep .listshi{
   display: none;
@@ -420,6 +466,9 @@ right: 10px;
   text-decoration: none;
   color: white;
 }
+.list-num-1 ul li a:hover{
+  color:#44a9ff;
+}
 .list-num-1{
   position: relative;
   top: 90px;
@@ -440,13 +489,15 @@ right: 40px;
 top: 5px;
 width: 200px;
 height:100px;
+background-color: #000000;
+z-index: 2;
 }
 .list-num-1 ul li:hover .list-num-2{
   display: block;
   position: absolute;
   margin-top: 10px;
   left: 20px;
-  background-color: #000000;
+
 }
 .divba{
   border: 1px #44a9ff solid;
@@ -640,10 +691,10 @@ left: -20px;
   .listshi{
     background-color: #ffffff00;
     height: 200px;
-    width: 70px;
-
+    width: 80px;
+    margin-top: 30px;
   }
-.divba .h2,.divna .h2 ,.divco .h2,.divto .h2,.divjo .h2{
+  .divmaj .h2,.divba .h2,.divna .h2 ,.divco .h2,.divto .h2,.divjo .h2{
   position: relative;
   top: -15px;
   left: 60px;
@@ -798,11 +849,7 @@ top:-50px;
 
     
 
-.divmaj .h2{
-  position:relative;
-  top:-30px;
-  left:60px;
-}
+
 .divs{
 position:relative;
 top:-60px;
@@ -823,6 +870,7 @@ height:450px;
 .case .divmaj img,.case div img{
   width:230px;
   height:250px;
+  z-index: 3;
   }
 .imaj{
 
@@ -890,7 +938,9 @@ top:-465px;
 {
 
 
-
+.hid{
+  z-index: 5;
+}
   .m{
     display:none;
   }
@@ -899,7 +949,7 @@ top:-465px;
   }
   .la{
     display: block;
-margin-left: 37px;
+margin-left: 10px;
 position: fixed;
   }
 
@@ -921,7 +971,9 @@ height:4000px;
 @media screen and (min-width:1041px) and (max-width:1270px)
 {
 
-
+  .hid{
+    z-index: 5;
+  }
 
   .m{
     display:none;
@@ -931,7 +983,7 @@ height:4000px;
   }
   .la{
     display: block;
-margin-left: 37px;
+margin-left: 10px;
 position: fixed;
   }
 
@@ -971,7 +1023,9 @@ position: fixed;
 
 
   }
-
+.case{
+  margin-left: -120px;
+}
 }
 
 
@@ -986,7 +1040,7 @@ position: fixed;
   }
   .case{
   position:relative;
-  left:-140px;
+  left:-110px;
 
   }
   .TITRE1{
@@ -996,9 +1050,147 @@ position: fixed;
 }
 @media screen and (max-width:1040px)
 {
+  .barre{
+    position: relative;
+    top: -35px;
+  }
+.hid{
+  width: 100%;
+  height: 50px;
+}
+.submit1{
+  font-size: 20px;
+}
+.affichage_genre{
+  display: block;
+  position: relative;
+  top: -220px;
+  left: 490px;
+  z-index: 4;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+}
+.contacte{
+  position: relative;
+  top: -190px;
+  left: 600px;
+  z-index: 3;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+}
+.list-num-1 ul li i a {
+  font-size: 20px;
+}
+#search{
+  margin-left: 50px;
+}
+.h2{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+
+
+
+
+.divba,.divco,.divin,.divjo,.divmaj,.divna,.divto{
+  width: 600px;
+
+}
+.m{
+  width: 100%;
+  height: 10px;
+}
+.m1{
+  height: 75px;
+}
+.logo{
+  position: relative;
+  top: -50px;
+  margin-left: 400px;
+  width: 50px;
+  height: 50px;
+  visibility: hidden;
+}
+.select{
+  position: relative;
+  top: -17px;
+  left: 760px;
+}
+.select:focus{
+  width: 100px;
+}
+.list-num-2{
+  position: relative;
+  right: 0px;
+  margin-left: -30px;
+}
+.fa-film{
+  z-index: 3;
+}
+.submit1{
+  position: relative;
+  top: -90px;
+  left: 200px;
+}
+.img3{
+  position: relative;
+  top: -85px;
+  left: 220px;
+  z-index: 2;
+}
+.list-num-1{
+  position: relative;
+  top: -127px;
+  left: 330px;
+  width: 200px;
+  z-index: 3;
+}
+.mary{
+  float: left;
+  margin-top: -50px;
+margin-left: -20px;
+  font-size: 25px;
+}
+.genre{
+  display: none;
+}
+.genre1{
+  display: flex;
+  flex-direction: row;
+  margin-top: -200px;
+  position: relative;
+}
+.cochable{
+  margin-right: 25px;
+  position: relative;
+  top: -70px;
+}
+.body{
+  margin-left: -8px;
+
+}
+
+.bodys{
+  margin-left: -8px;
+}
+
+.note{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.note1{
+  font-size: 20px;
+}
+.divs{
+  margin-left: 20px;
+  margin-top: -30px;
+}
   .naruto{
     position: relative;
-  font-size: 23px;
+  font-size: 30px;
   
   }
   .m{
@@ -1009,23 +1201,27 @@ position: fixed;
   }
   .la{
     display: block;
-margin-left: 37px;
+    margin-top: 35px;
 position: fixed;
   }
   .div{
-    width: 850px;
-    margin-left: -275px;
+    margin-left: -360px;
     height:9300px;
-    width:800px;
+    max-width: 900px;
+    width:100%;
+    margin-top: 100px;
 
 
+  }
+  .div_top{
+    margin-top: 150px;
   }
 .WATCH{
   position:relative;
   left:300px;
 }
 .case div h2,.case div div {
-  width:250px;
+  width:350px;
 }
   .case{
   position:relative;
@@ -1140,20 +1336,30 @@ position: fixed;
                                               left:300px;
                                               }
                                               
-}
+
+                                            }
 
 @media screen and (max-width:1000px) {
 .div{
-  width:750px;
-  margin-left: -290px;
+  width:850px;
+  margin-left: -350px;
 }
 .case{
   position:relative;
-  left:-180px;
+  left:-150px;
 }
 .TITRE1{
   position:relative;
   left:-300px;
+}
+
+.divba,.divco,.divin,.divjo,.divmaj,.divna,.divto{
+  width: 550px;
+
+}
+.h2{
+  font-size: 27px!important;
+  margin-left: 2px;
 }
 }
 .divmaj img,.divin img{
@@ -1163,12 +1369,21 @@ position: fixed;
 
 @media screen and (max-width:950px){
   .div{
-    width:690px;
-    margin-left: -290px;
+    width:800px;
+    margin-left: -350px;
   }
+.div_top{
+  margin-top: 200px;
+}
   .case{
     position:relative;
-    left:-210px;
+    left:-180px;
+  }
+  .m1{
+    height: 130px;
+  }
+  .cochable{
+    margin-top: 10px;
   }
   .TITRE1{
     position:relative;
@@ -1178,13 +1393,28 @@ position: fixed;
     position:relative;
     left:320px;
   }
+.genre1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.affichage_genre{
+  position: relative;
+  left: 320px;
+ z-index: 3;
+}
+.list-num-1{
+  position: relative;
+  left: 430px;
+  z-index: 3;
+}
 }
 
-@media screen and (max-width:890px){
+@media screen and (max-width:920px){
   .div{
-width: 650px;
-position: absolute;
-left: 400px;
+width: 750px;
+left: 420px;
 
 
   }
@@ -1192,18 +1422,39 @@ left: 400px;
     position:relative;
     left:340px;
   }
+#search{
+  margin-left: 10px;
+}
+
 }
 
 @media screen and (max-width:860px){
   .div{
-width: 650px;
-position: absolute;
-left: 380px;
+width: 700px;
+left: 410px;
 
   }
   .WATCH{
     position:relative;
     left:360px;
+  }
+
+  .case{
+    margin-left: -10px;
+  }
+  .divba,.divco,.divin,.divjo,.divmaj,.divna,.divto{
+    width: 500px;
+  
+  }
+  .h2{
+    font-size: 23px!important;
+  }
+  .note{
+    margin-left: 0;
+  }
+  .divs{
+    margin-left: 0;
+    margin-top: -2PX;
   }
 }
 

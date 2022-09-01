@@ -1,9 +1,19 @@
-function list(){
-  document.getElementById('m').classList.toggle("la");
-document.getElementById('selec').classList.toggle("la");
+function affichage(){
+  document.querySelector(".genre").classList.toggle("genre1")
+  document.querySelector(".m").classList.toggle("m1")
+  document.querySelector(".div").classList.toggle("div_top")
 
 }
-caracter="/:;.,!+"
+function list(){
+      document.getElementById('m').classList.toggle("la");
+      document.getElementById('selec').classList.toggle("la");
+      
+    
+  
+  
+}
+
+
 function rech(){
 
 
